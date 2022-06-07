@@ -1,17 +1,16 @@
+#include "main.h"
 
-# inclure  " main.h "
-
-/* *
-* main - teste la fonction qui imprime si l'entier est positif ou négatif
-* Retour : 0
+/**
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
 
-int  principal ( vide )
+int main(void)
 {
-	int je ;
+	int i;
 
-	je = 0 ;
-	positif_ou_négatif (i);
+	i = 0;
+	positive_or_negative(i);
 
-	retour ( 0 );
+	return (0);
 }
