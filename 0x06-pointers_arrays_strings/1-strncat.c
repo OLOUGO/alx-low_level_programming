@@ -20,7 +20,7 @@ for (y = 1; y <= n; y++)
 dest[x] = src[y - 1];
 x++;
 }
-}
 dest[x] = '\0';
+}
 return (dest);
 }
