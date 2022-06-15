@@ -18,12 +18,12 @@ void print_array(int *a, int n)
     {
         if (i != 0)
         {
-            printf(", ");
+            _putchar(", ");
         }
-        printf("%d", a[i]);
+        _putchar( a[i]);
         i++;
     }
-    printf("\n");
+    _putchar("\n");
 }
 
 void reverse_array(int *a, int n)
@@ -38,7 +38,7 @@ void reverse_array(int *a, int n)
         j--;
 
         aCopy[i] = a[j];
-        printf("%d", aCopy[i]);
+        _putchar( aCopy[i]);
     }
 }
 
