@@ -5,7 +5,7 @@
  * @owner: pointer to element that holds owner's name
  */
 
- struct dog
+struct dog
 {
     char *name;
     float age;
