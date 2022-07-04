@@ -5,8 +5,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 
-
-#endif
 /**
  * struct dog - a structure type with elements defined
  * @name: pointer to element that hold dog's name
@@ -20,3 +18,5 @@ typedef struct dog
     float age;
     char *owner;
 } dog_t;
+
+#endif
